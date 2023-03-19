@@ -1,5 +1,8 @@
 # Video_conference_demo
 
+## Prequisites ##
+Android Emulator: `x86_64` arch
+
 ## How to Run ##
 
 Install package
