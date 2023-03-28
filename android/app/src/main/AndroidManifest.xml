@@ -1,15 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
     package="com.example.video_conference_demo">
-	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
-  	<uses-permission android:name="android.permission.INTERNET" />
-  	<uses-permission android:name="android.permission.RECORD_AUDIO" />
-  	<uses-permission android:name="android.permission.CAMERA" />
-  	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-  	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  	<uses-permission android:name="android.permission.BLUETOOTH" />
-  	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-  	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-sdk tools:overrideLibrary="dev.saibotma.jitsi_meet_wrapper, org.jitsi.meet.sdk, co.apptailor.googlesignin, com.calendarevents, com.reactnativecommunity.asyncstorage, com.reactnativecommunity.netinfo, com.rnimmersive, com.corbt.keepawake, com.BV.LinearGradient, com.horcrux.svg, com.oney.WebRTCModule, com.ocetnik.timer, com.kevinresol.react_native_default_preference, com.learnium.RNDeviceInfo, com.amplitude.reactnative, com.reactnativegooglesignin, com.reactnativecommunity.clipboard, com.swmansion.gesturehandler.react, org.linusu, org.reactnative.maskedview, com.reactnativepagerview, com.oblador.performance, com.swmansion.reanimated, com.th3rdwave.safeareacontext, com.swmansion.rnscreens, com.reactnativecommunity.slider, org.devio.rn.splashscreen, com.brentvatne.react, com.reactnativecommunity.webview"/>
    <application
+		tools:replace="android:label"
         android:label="video_conference_demo"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
