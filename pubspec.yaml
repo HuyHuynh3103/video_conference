@@ -12,8 +12,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   http: ^0.13.5
   path_provider: ^2.0.8
-  permission_handler: ^10.2.0
-  agora_rtc_engine: ^6.1.0
   jitsi_meet_wrapper: ^0.0.6
   
 dev_dependencies:

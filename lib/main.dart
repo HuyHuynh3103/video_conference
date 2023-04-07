@@ -16,7 +16,7 @@ class App extends StatelessWidget {
         appBar: AppBar(title: const Text('Video Conference Demo')),
         body: Container(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
-            child: VideoCallPage(channelName: "jitsi-meet-wrapper-test-room")),
+            child: const VideoCallPage()),
       ),
     );
   }

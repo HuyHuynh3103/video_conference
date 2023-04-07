@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:jitsi_meet_wrapper/jitsi_meet_wrapper.dart';
 
 class VideoCallPage extends StatefulWidget {
-  final String channelName;
-
-  const VideoCallPage({Key? key, required this.channelName}) : super(key: key);
+  const VideoCallPage({Key? key}) : super(key: key);
 
   @override
   _VideoCallPageState createState() => _VideoCallPageState();
@@ -49,11 +47,11 @@ class _VideoCallPageState extends State<VideoCallPage> {
   }
 
   final serverText = TextEditingController();
-  final roomText = TextEditingController(text: "jitsi-meet-wrapper-test-room");
-  final subjectText = TextEditingController(text: "My Plugin Test Meeting");
+  final roomText = TextEditingController(text: "Video-test-room");
+  final subjectText = TextEditingController(text: "Test Meeting");
   final tokenText = TextEditingController();
-  final userDisplayNameText = TextEditingController(text: "Plugin Test User");
-  final userEmailText = TextEditingController(text: "fake@email.com");
+  final userDisplayNameText = TextEditingController(text: "Test User");
+  final userEmailText = TextEditingController(text: "hcmus@email.com");
   final userAvatarUrlText = TextEditingController();
 
   bool isAudioMuted = true;
