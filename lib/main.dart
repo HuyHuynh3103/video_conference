@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:video_conference_demo/video-page.dart';
+import 'package:video_conference_demo/video_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -11,7 +11,6 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   http: ^0.13.5
-  path_provider: ^2.0.8
   jitsi_meet_wrapper: ^0.0.6
   
 dev_dependencies:
